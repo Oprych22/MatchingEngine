@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/michael/code/MatchingEngine/MatchingEngine.Test/MatchingEngine.Test.csproj": {}
+  },
+  "projects": {
+    "/home/michael/code/MatchingEngine/MatchingEngine.Test/MatchingEngine.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/michael/code/MatchingEngine/MatchingEngine.Test/MatchingEngine.Test.csproj",
+        "projectName": "MatchingEngine.Test",
+        "projectPath": "/home/michael/code/MatchingEngine/MatchingEngine.Test/MatchingEngine.Test.csproj",
+        "packagesPath": "/home/michael/.nuget/packages/",
+        "outputPath": "/home/michael/code/MatchingEngine/MatchingEngine.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/michael/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/michael/code/MatchingEngine/MatchingEngine/MatchingEngine.csproj": {
+                "projectPath": "/home/michael/code/MatchingEngine/MatchingEngine/MatchingEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/michael/code/MatchingEngine/MatchingEngine/MatchingEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/michael/code/MatchingEngine/MatchingEngine/MatchingEngine.csproj",
+        "projectName": "MatchingEngine",
+        "projectPath": "/home/michael/code/MatchingEngine/MatchingEngine/MatchingEngine.csproj",
+        "packagesPath": "/home/michael/.nuget/packages/",
+        "outputPath": "/home/michael/code/MatchingEngine/MatchingEngine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/michael/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

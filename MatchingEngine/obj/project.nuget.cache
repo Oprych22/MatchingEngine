@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YoTnYsdwqG9+HNdeYeGlZ2cxbnWO99n9TMEy0P1ldxbxp6jBw4nynDkX6rrc8oUI52mr7X2zBiOCuk5EF0Td8A==",
+  "success": true,
+  "projectFilePath": "/home/michael/code/MatchingEngine/MatchingEngine/MatchingEngine.csproj",
+  "expectedPackageFiles": [
+    "/home/michael/.nuget/packages/system.reactive/5.0.0/system.reactive.5.0.0.nupkg.sha512",
+    "/home/michael/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
